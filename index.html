@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html>
 <html lang="en-ca">
 <head>
+  <meta charset="utf-8">
   <title>Shrubbery, etc.</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="css/modules.css" rel="stylesheet">
@@ -12,25 +12,30 @@
 </head>
 <body>
 
+  <ul class="skip-links">
+    <li><a href="#main">Jump to main content</a></li>
+    <li><a href="#nav">Jump to navigation</a></li>
+  </ul>
+
   <header>
     <div class="masthead">
       <div class="wrapper pad-t-1-2 pad-b-1-2 gutter-1-2">
         <h1 class="push-0">Shrubbery, etc.</h1>
       </div>
       <div class="nav">
-        <div class="wrapper gutter-1-2">
-          <ol class="mega list-group-inline push-0">
+        <nav role="navigation" class="wrapper gutter-1-2">
+          <ul class="mega list-group-inline push-0">
             <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="#">About</a></li>
             <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="#">Shrubs</a></li>
             <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="#">Prices</a></li>
             <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="#">News</a></li>
             <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="#">Contact</a></li>
-          </ol>
-        </div>
+          </ul>
+        </nav>
       </div>
     </div>
 
-    <div>
+    <div role="banner">
       <div class="about push" id="about">
         <div class="embed embed-24by10">
           <img class="embed-item" src="images/shrubs.jpg" alt="">
