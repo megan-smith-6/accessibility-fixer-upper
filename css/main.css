@@ -2,6 +2,10 @@ html {
   font-family: Merriweather, serif;
 }
 
+a:focus {
+  outline: 3px solid #000;
+}
+
 .skip-links a:focus {
   top: 0;
 }
