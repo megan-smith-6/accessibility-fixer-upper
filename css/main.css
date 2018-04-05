@@ -2,6 +2,10 @@ html {
   font-family: Merriweather, serif;
 }
 
+.skip-links a:focus {
+  top: 0;
+}
+
 .color-brand {
   color: #568c36;
 }
