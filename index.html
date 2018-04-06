@@ -17,25 +17,26 @@
     <li><a href="#nav">Jump to navigation</a></li>
   </ul>
 
-  <header role="banner">
-    <div class="masthead">
-      <div class="wrapper pad-t-1-2 pad-b-1-2 gutter-1-2">
-        <h1 class="push-0">Shrubbery, etc.</h1>
-      </div>
-      <div class="nav">
-        <nav role="navigation" id="nav" class="wrapper gutter-1-2">
-          <ul class="mega list-group-inline push-0">
-            <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="#about">About</a></li>
-            <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="#shrubs">Shrubs</a></li>
-            <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="#prices">Prices</a></li>
-            <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="#news">News</a></li>
-            <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="#contact">Contact</a></li>
-          </ul>
-        </nav>
-      </div>
+  <header role="banner" class="masthead">
+    <div class="wrapper pad-t-1-2 pad-b-1-2 gutter-1-2">
+      <h1 class="push-0">Shrubbery, etc.</h1>
     </div>
+    <div class="nav">
+      <nav role="navigation" id="nav" class="wrapper gutter-1-2">
+        <ul class="mega list-group-inline push-0">
+          <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="#about">About</a></li>
+          <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="#shrubs">Shrubs</a></li>
+          <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="#prices">Prices</a></li>
+          <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="#news">News</a></li>
+          <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-    <div class="about push" id="about" tabindex="0">
+  <main id="main" role="main">
+
+    <section class="about push" id="about" tabindex="0">
       <div class="embed embed-24by10">
         <img class="embed-item" src="images/shrubs.jpg" alt="">
       </div>
@@ -46,13 +47,11 @@
           <p class="mega push-0 max-length not-centered">Yes, shrubberies are my trade—I am a shrubber. My name is Roger the Shrubber. I arrange, design, and sell shrubberies.</p>
         </div>
       </div>
-    </div>
-  </header>
+    </section>
 
-  <main id="main" role="main">
 
     <section id="shrubs" tabindex="0">
-      <div>
+
         <div class="wrapper gutter-1-2">
           <h2 class="push-0 color-brand-dark">Products</h2>
           <p class="mega max-length not-centered">If you do not tell us where we can buy a shrubbery, my friend and I will say… we will say… “nee”.</p>
@@ -79,7 +78,7 @@
               </div>
             </li>
           </ul>
-        </div>
+
       </div>
     </section>
 
@@ -93,10 +92,10 @@
             <caption class="italic pad-t">Prices for small, medium and large shrubberies.</caption>
             <thead>
               <tr>
-                <th>&nbsp;</th>
-                <th class="bold">Small</th>
-                <th class="bold">Medium</th>
-                <th class="bold">Large</th>
+                <th scope="col">&nbsp;</th>
+                <th scope="col" class="bold">Small</th>
+                <th scope="col" class="bold">Medium</th>
+                <th scope="col" class="bold">Large</th>
               </tr>
             </thead>
 
